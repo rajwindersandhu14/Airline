@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+.main-head {
+    background-color: #CC2562;
+    height: 200px;
+}
+
+.airindiapic {
+    float: left;
+
+
+}
+
+#p1head {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    font-size: 50px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+.home {
+    display: flex;
+    font-size: 30px;
+    color: snow;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+    position: relative;
+    margin: 5%;
+    margin-top: 25%;
+    font-family: 'Anton', sans-serif;
+}
+
+.table {
+    height: 800px;
+    width: -100px;
+}
+
+#h1 {
+    background-color: #CC2562;
+    color: white;
+    margin-left: 600px;
+    margin-right: 680px;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+footer {
+    background-color: #FFB3B3;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 00px;
+    padding: 10px;
+
+}
+
+footer img {
+    padding: 35px 35px;
+}

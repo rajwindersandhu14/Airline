@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+.main-head {
+    background-color: #CC2562;
+    height: 200px;
+    grid-area: header;
+
+}
+
+.form1 {
+    grid-area: form;
+}
+
+.foot1 {
+    grid-area: foot1;
+}
+
+body {
+    background-image: url(../Images/airlinegd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Calistoga', cursive;
+}
+
+.airindiapic {
+    float: left;
+
+
+}
+
+#p1head {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    font-size: 50px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    font-size: 30px;
+    color: snow;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+    position: relative;
+    margin: 5%;
+    margin-top: 25%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "form1"
+        "footer"
+}
+
+@media (min-width: 5670px) {
+    .wrapper {
+        grid-template-columns: 2fr 2fr;
+        grid-template-areas:
+            "header header header header"
+            "form1  form1"
+            "footer footer"
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+b {
+    color: black;
+    font-size: 25px;
+}
+
+legend {
+    color: black;
+    font-size: 25px;
+}
+
+input[type=text] {
+    width: 20%;
+}
+
+label {
+    font-family: fantasy;
+}
+
+fieldset {
+    /*      3rd parameter is the blur , 4rth paramter is the spread of the box shadow          */
+    background-color: aqua;
+    box-shadow: 4px 2px 7px 2px black;
+    margin-left: 80px;
+    margin-right: 800px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.signup {
+    text-decoration: none;
+}

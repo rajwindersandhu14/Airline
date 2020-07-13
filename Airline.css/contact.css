@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+.main-head {
+    background-color: #CC2562;
+    height: 200px;
+
+}
+
+.airindiapic {
+    float: left;
+
+
+}
+
+#p1head {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    font-size: 50px;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+
+.home {
+    display: flex;
+    font-size: 30px;
+    color: snow;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+    position: relative;
+    margin: 5%;
+    margin-top: 25%;
+    font-family: 'Arvo', serif;
+
+}
+
+.container2 {
+    height: 1500px;
+    width: 1500px;
+    background-image: url(../Images/special%20airindia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arvo', serif;
+
+}
+
+.article1 {
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.customersupport {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#h1 {
+    color: blueviolet;
+    font font-size: 45px;
+ font-family: 'Arvo', serif;
+}
+
+#p1 {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+     font-family: 'Arvo', serif;
+
+}
+
+footer {
+    background-color: #FFB3B3;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 00px;
+    padding: 10px;
+
+}
+
+footer img {
+    padding: 35px 35px;
+     font-family: 'Arvo', serif;
+}

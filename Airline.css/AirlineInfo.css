@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo&display=swap');
+body {
+    background-color: #509DC7;
+    background-image: url(../Images/airlinegd.jpg);
+}
+
+
+.main-head {
+    background-color: #CC2562;
+    height: 200px;
+
+}
+
+body {
+    background-image: url(../Images/airlinegd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arvo', serif;
+}
+
+.airindiapic {
+    float: left;
+
+
+}
+
+#p1head {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    font-size: 50px;
+    color: white;
+    font-family: 'Arvo', serif;
+}
+
+.home {
+    display: flex;
+    font-size: 30px;
+    color: snow;
+    text-decoration: none;
+    display: inline;
+    justify-content: space-between;
+    position: relative;
+    margin: 5%;
+    margin-top: 25%;
+    font-family: 'Arvo', serif;
+}
+
+.border1,
+th,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    color: blue;
+    text-decoration-style: double;
+    font-size: 15px;
+    column-span: 2;
+    width: 50%;
+    font-family: 'Arvo', serif;
+}
+
+th {
+    font-size: 50px;
+}
+
+td {
+    font-size: 50px;
+}
+
+.days1 {
+    color: white;
+}
+
+.p1 {
+    color: whitesmoke;
+    font-family: 'Arvo', serif;
+}
+
+.video {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+footer {
+    background-color: #FFB3B3;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    margin-top: 00px;
+    padding: 10px;
+    height: 200px;
+
+}
+
+footer img {
+    padding: 35px 35px;
+}
